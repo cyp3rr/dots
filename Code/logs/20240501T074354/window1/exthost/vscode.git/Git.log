@@ -1,0 +1,81 @@
+2024-05-01 07:43:57.339 [info] Log level: Info
+2024-05-01 07:43:57.339 [info] Validating found git in: "git"
+2024-05-01 07:43:57.339 [info] Using git "2.44.0" from "git"
+2024-05-01 07:43:57.339 [info] > git rev-parse --show-toplevel [5ms]
+2024-05-01 07:43:57.339 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-05-01 07:43:57.339 [info] > git rev-parse --show-toplevel [3ms]
+2024-05-01 07:43:57.339 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-05-01 07:43:57.340 [info] > git rev-parse --show-toplevel [2ms]
+2024-05-01 07:43:57.340 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-05-01 07:43:57.346 [info] > git rev-parse --show-toplevel [2ms]
+2024-05-01 07:43:57.346 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-05-01 07:43:57.353 [info] > git rev-parse --show-toplevel [2ms]
+2024-05-01 07:43:57.353 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-05-01 07:43:57.370 [info] > git rev-parse --show-toplevel [11ms]
+2024-05-01 07:43:57.370 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-05-01 07:43:57.378 [info] > git rev-parse --show-toplevel [1ms]
+2024-05-01 07:43:57.378 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-05-01 07:43:57.385 [info] > git rev-parse --show-toplevel [3ms]
+2024-05-01 07:43:57.385 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-05-01 07:43:57.392 [info] > git rev-parse --show-toplevel [2ms]
+2024-05-01 07:43:57.392 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-05-01 07:43:57.399 [info] > git rev-parse --show-toplevel [2ms]
+2024-05-01 07:43:57.399 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-05-01 07:43:57.406 [info] > git rev-parse --show-toplevel [2ms]
+2024-05-01 07:43:57.407 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-05-01 07:43:57.431 [info] > git rev-parse --show-toplevel [20ms]
+2024-05-01 07:43:57.431 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-05-01 07:43:57.437 [info] > git rev-parse --show-toplevel [2ms]
+2024-05-01 07:43:57.437 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-05-01 07:43:57.442 [info] > git rev-parse --show-toplevel [1ms]
+2024-05-01 07:43:57.442 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-05-01 07:43:57.447 [info] > git rev-parse --show-toplevel [1ms]
+2024-05-01 07:43:57.447 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-05-01 07:43:57.452 [info] > git rev-parse --show-toplevel [1ms]
+2024-05-01 07:43:57.452 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-05-01 07:43:57.458 [info] > git rev-parse --show-toplevel [2ms]
+2024-05-01 07:43:57.458 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-05-01 07:43:57.482 [info] > git rev-parse --show-toplevel [21ms]
+2024-05-01 07:43:57.482 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-05-01 07:43:57.489 [info] > git rev-parse --show-toplevel [1ms]
+2024-05-01 07:43:57.490 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-05-01 07:43:57.502 [info] > git rev-parse --show-toplevel [8ms]
+2024-05-01 07:43:57.503 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-05-01 07:43:57.508 [info] > git rev-parse --show-toplevel [2ms]
+2024-05-01 07:43:57.508 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-05-01 07:43:57.513 [info] > git rev-parse --show-toplevel [2ms]
+2024-05-01 07:43:57.513 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-05-01 07:43:57.518 [info] > git rev-parse --show-toplevel [2ms]
+2024-05-01 07:43:57.518 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-05-01 07:43:57.526 [info] > git rev-parse --show-toplevel [1ms]
+2024-05-01 07:43:57.526 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-05-01 07:43:59.668 [info] > git rev-parse --show-toplevel [4ms]
+2024-05-01 07:43:59.668 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-05-01 07:45:46.343 [info] > git rev-parse --show-toplevel [2ms]
+2024-05-01 07:45:46.343 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-05-01 07:45:51.898 [info] > git rev-parse --show-toplevel [2ms]
+2024-05-01 07:45:51.898 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-05-01 07:46:24.089 [info] > git rev-parse --show-toplevel [2ms]
+2024-05-01 07:46:24.089 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-05-01 07:46:39.232 [info] > git rev-parse --show-toplevel [5ms]
+2024-05-01 07:46:39.232 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-05-01 07:46:52.760 [info] > git rev-parse --show-toplevel [10ms]
+2024-05-01 07:46:52.761 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-05-01 07:49:04.221 [info] > git rev-parse --show-toplevel [2ms]
+2024-05-01 07:49:04.221 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-05-03 08:44:08.151 [info] > git rev-parse --show-toplevel [2ms]
+2024-05-03 08:44:08.158 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-05-03 08:44:08.179 [info] Open repository: /home/cyper/.config
+2024-05-03 08:44:08.192 [info] > git config --get commit.template [3ms]
+2024-05-03 08:44:08.199 [info] No remotes found in the git config file.
+2024-05-03 08:44:08.201 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-05-03 08:44:08.201 [warning] No such branch: master.
+2024-05-03 08:44:08.222 [info] > git status -z -uall [15ms]
+2024-05-03 08:44:08.459 [info] > git config --get commit.template [198ms]
+2024-05-03 08:44:08.465 [info] No remotes found in the git config file.
+2024-05-03 08:44:08.466 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-05-03 08:44:08.466 [warning] No such branch: master.
+2024-05-03 08:44:08.477 [info] > git status -z -uall [7ms]
+2024-05-03 08:44:08.501 [info] > git show --textconv :gtk-3.0/gtk.css [7ms]
+2024-05-03 08:44:08.504 [info] > git ls-files --stage -- /home/cyper/.config/gtk-3.0/gtk.css [4ms]
+2024-05-03 08:44:08.718 [info] > git check-ignore -v -z --stdin [2ms]

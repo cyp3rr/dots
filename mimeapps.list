@@ -1,0 +1,5 @@
+[Default Applications]
+application/x-xz-compressed-tar=thunar.desktop
+
+[Added Associations]
+application/x-xz-compressed-tar=thunar.desktop;

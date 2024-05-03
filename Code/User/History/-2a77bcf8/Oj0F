@@ -1,0 +1,22 @@
+bar {
+    swaybar_command waybar
+}
+
+default_border pixel 2
+# default_border none
+# for_window [class=".*"] border pixel 2
+default_floating_border none 
+# smart_gaps on
+# hide_edge_borders smart
+gaps inner 5
+gaps outer 10
+
+
+# SwayFx options
+corner_radius 12
+smart_corner_radius on
+shadows on
+shadow_blur_radius 12
+shadow_color #303446
+
+layer_effects "waybar" blur enable; shadows enable; corner_radius 16

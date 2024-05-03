@@ -1,0 +1,53 @@
+bar {
+    swaybar_command waybar
+}
+
+# Windows opacity
+set $opacity 1
+for_window [class=".*"] opacity $opacity
+for_window [app_id=".*"] opacity $opacity
+
+font pango:PreludeWGL Medium 12
+
+# Set ny gtk themes
+set $gnome-schema org.gnome.desktop.interface
+# seat seat0 xcursor_ theme 'capitaine-cursors-light' 36
+exec_always {
+    gsettings set $gnome-schema gtk-theme 'Gently-Color-GTK'
+    gsettings set $gnome-schema icon-theme 'Colloid'
+    gsettings set $gnome-schema font-name 'PreludeWGL Medium 12' 
+#    gsettings set $gnome-schema cursor-theme 'capitaine-cursors-light'
+#    gsettings set $gnome-schema cursor-size'36'
+}
+
+
+default_border pixel 2
+# default_border none
+# for_window [class=".*"] border pixel 2
+default_floating_border none 
+# smart_gaps on
+# hide_edge_borders smart
+gaps inner 16
+# gaps outer 10
+
+# SwayFx options
+corner_radius 12
+smart_corner_radius on
+shadows on
+shadow_blur_radius 12
+shadow_color #303446
+
+# waybar backdrop blur and border radius 
+layer_effects "waybar" blur enable; shadows enable; corner_radius 16
+layer_effects "gtk-layer-shell" blur enable; shadows enable; corner_radius 16
+
+# <colorclass>          <border> <background> <text> <indicator> <child_border>
+
+# class                 border  backgr. text    indicator child_border
+client.focused          #ffffff1a #ffffff40 #00000040 #ff000040 #ffffff1a
+client.focused_inactive #ffffff05 #ffffff40 #00000040 #ff000040 #ffffff05
+client.unfocused        #ffffff05 #ffffff40 #00000040 #ff000040 #ffffff05
+client.urgent           #2f343a #900000 #ffffff #900000   #900000
+client.placeholder      #000000 #0c0c0c #ffffff #000000   #0c0c0c
+
+client.background       #ffffff00

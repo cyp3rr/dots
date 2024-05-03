@@ -1,0 +1,33 @@
+bar {
+    swaybar_command waybar
+}
+
+# Windows opacity
+set $opacity 0.95
+for_window [class=".*"] opacity $opacity
+for_window [app_id=".*"] opacity $opacity
+
+default_border pixel 2
+# default_border none
+# for_window [class=".*"] border pixel 2
+default_floating_border none 
+# smart_gaps on
+# hide_edge_borders smart
+gaps inner 16
+# gaps outer 10
+
+# SwayFx options
+corner_radius 12
+smart_corner_radius on
+shadows on
+shadow_blur_radius 12
+shadow_color #303446
+
+# waybar backdrop blur and border radius 
+# layer_effects "waybar" blur enable; shadows enable; corner_radius 16
+
+# <colorclass>          <border> <background> <text> <indicator> <child_border>
+client.focused          #ffffff1a #ffffff40 #00000040 #ff000040 #ffffff1a
+client.unfocused        #ffffff05 #ffffff40 #00000040 #ff000040 #ffffff05
+client.focused_inactive #313244 #313244 #313244 #313244 #313244
+
