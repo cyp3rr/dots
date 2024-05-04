@@ -11,3 +11,6 @@
 2024-05-01 07:45:46.437 [info] ExtensionService#_doActivateExtension kamikillerto.vscode-colorize, startup: false, activationEvent: '*'
 2024-05-03 08:44:08.244 [warning] [Decorations] CAPPING events from decorations provider vscode.git 839
 2024-05-03 08:44:08.483 [warning] [Decorations] CAPPING events from decorations provider vscode.git 840
+2024-05-03 08:56:52.880 [warning] [Decorations] CAPPING events from decorations provider vscode.git 840
+2024-05-03 20:13:52.140 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-05-03 20:13:52.172 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
