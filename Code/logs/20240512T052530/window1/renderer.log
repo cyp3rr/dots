@@ -4,3 +4,17 @@
     at b.j (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1693:22006)
     at u.value (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1693:21027)
 2024-05-12 05:25:35.762 [info] [perf] Render performance baseline is 63ms
+2024-05-12 17:49:01.983 [info] Started local extension host with pid 91018.
+2024-05-12 17:49:07.533 [info] [perf] Render performance baseline is 60ms
+2024-05-12 17:50:57.823 [info] Started local extension host with pid 91183.
+2024-05-12 17:51:01.718 [info] [perf] Render performance baseline is 77ms
+2024-05-13 06:38:25.539 [warning] [lifecycle] onBeforeShutdown is taking a long time, pending operations: veto.backups
+2024-05-13 06:38:26.393 [warning] [backup tracker] suspended, ignoring content change event untitled:Untitled-1 
+2024-05-13 06:38:26.394 [warning] [backup tracker] suspended, ignoring dirty change event untitled:Untitled-1 
+2024-05-13 06:38:26.400 [warning] [backup tracker] suspended, ignoring unregister event untitled:Untitled-1 
+2024-05-13 06:38:28.672 [info] Started local extension host with pid 100866.
+2024-05-13 06:38:30.565 [error] Cannot read properties of undefined (reading 'accessToken'): TypeError: Cannot read properties of undefined (reading 'accessToken')
+    at b.h (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1693:21270)
+    at b.j (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1693:22006)
+    at u.value (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1693:21027)
+2024-05-13 06:38:32.624 [info] [perf] Render performance baseline is 51ms

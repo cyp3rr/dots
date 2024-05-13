@@ -1,0 +1,116 @@
+
+/*************************************************************************************************************************************************************************************************************************************************************
+
+"userChrome.css" is a custom CSS file that can be used to specify CSS style rules for Floorp's interface (NOT internal site) using "chrome" privileges.
+For instance, if you want to hide the tab bar, you can use the following CSS rule:
+
+**************************************
+#TabsToolbar {                       *
+    display: none !important;        *
+}                                    *
+**************************************
+
+NOTE: You can use the userChrome.css file without change preferences (about:config)
+
+Quote: https://userChrome.org | https://github.com/topics/userchrome 
+
+************************************************************************************************************************************************************************************************************************************************************/
+
+@charset "UTF-8";
+@-moz-document url(chrome://browser/content/browser.xhtml) {
+/* Please write your custom CSS under this line*/
+
+
+}
+
+@import url('userContent.css');
+
+.browser-toolbar:not(.titlebar-color) {
+  background-color: transparent !important;
+  color: var(--toolbar-color);
+}
+
+#titlebar:-moz-window-inactive {
+  background-color: transparent !important;
+  color: InactiveCaptionText;
+}
+
+#navigator-toolbox {
+  appearance: none;
+  background-color: transparent;
+  border-top: none;
+}
+
+:root {
+  background-color: transparent !important;;
+  color: -moz-DialogText;
+  font: message-box;
+}
+
+#TabsToolbar,
+#toolbar-menubar,
+#main-menubar,
+#titlebar:-moz-lwtheme {
+  appearance: none;
+  background-color: transparent;
+  color: inherit;
+}
+
+#browser {
+  background: transparent !important;
+}
+
+.browser-sidebar2 {
+  background: transparent !important;
+  border: var(--toolbar-bgcolor) 0.1px solid;
+  border-bottom: solid 5px var(--toolbar-bgcolor);
+}
+
+#sidebar-select-box {
+  background-color: transparent !important;;
+  background-image: none !important;;
+  background-repeat: no-repeat, no-repeat, no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.sidebar-splitter {
+  appearance: none;
+  width: 6px;
+  background-color: transparent !important;;
+  border: 1px ThreeDShadow;
+  border-style: none solid;
+}
+
+#tabbrowser-tabbox[flex], #tabbrowser-tabpanels, browser[type="content-primary"], browser[type="content"] > html{
+  background: none !important;
+  background-color: transparent !important;
+}
+
+#sidebar-box {
+  --sidebar-background-color: Field;
+  --sidebar-text-color: FieldText;
+  background-color: transparent !important;
+  color: var(--sidebar-text-color);
+  text-shadow: none;
+}
+
+#urlbar-background,
+#searchbar {
+  background-color: transparent !important;
+  background-clip: border-box;
+  border: 1px solid var(--toolbar-field-border-color);
+  border-radius: var(--toolbarbutton-border-radius);
+}
+
+/* :root {
+  font: message-box;
+  appearance: none;
+  background-color: transparent !important;;
+  color: var(--in-content-page-color);
+}
+
+html {
+    background-color: transparent !important;
+} */
+

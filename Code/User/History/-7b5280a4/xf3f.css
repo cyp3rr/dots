@@ -1,0 +1,77 @@
+
+/*************************************************************************************************************************************************************************************************************************************************************
+
+"userContent.css" is a custom CSS file that can be used to specify CSS style rules for Floorp's internal site using "chrome" privileges.
+For instance, if you want to apply CSS at "about:newtab" and "about:home", you can use the following CSS rule:
+
+***********************************************************************
+@-moz-document url-prefix("about:newtab"), url-prefix("about:home") { *
+                                                                      *
+* Write your css *                                                    *
+                                                                      *
+}                                                                     *
+***********************************************************************
+
+NOTE: You can use the userContent.css file without change preferences (about:config)
+
+************************************************************************************************************************************************************************************************************************************************************/
+
+@charset "UTF-8";
+/* Please write your custom CSS under this line*/
+
+/* html {
+    background-color: transparent !important;
+}
+
+body {
+    background-color: transparent !important;
+}
+
+:root {
+    background-color: transparent !important;
+} */
+
+:root {
+    background: url('data:image/gif;base64,R0lGODlhAQABAAD8/ywAAAAAAQABAAAIBAABBAQAOwo=') !important;
+    /* ^ this is the real black magic */
+  
+    /* and the rest is css fuckery to make sure fully transparent bg always gets covered with another bg */
+    margin: 0 !important;
+    padding: 0 !important;
+    min-height: 100vh !important;
+    width: 100% !important;
+    overflow: auto !important;
+    position: relative !important;
+}
+
+html:before, html:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+:root>* {
+    margin: 0 !important;
+    padding: 0 !important;
+    height: max-content !important;
+    overflow: auto !important;
+    min-height: 100vh !important;
+    width: 100% !important;
+    position: relative !important;
+}
+
+@-moz-document url-prefix(about:), url-prefix(chrome:), url-prefix(moz-) {
+    :root {
+        /* allow browser uis to be smallers than viewport size */
+        min-height: 100% !important;
+    }
+    :root>* {
+        background: rgba(36,16,26,.75) !important;
+        min-height: 100% !important;
+    }
+    .logo-and-wordmark {
+        display: none !important;	
+    }
+    .search-handoff-button {
+        background: rgba(0, 0, 0, .5) !important;
+    }
+}

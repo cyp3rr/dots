@@ -5,6 +5,7 @@
             "file:///home/cyper/.config/hypr": "__default__profile__",
             "file:///home/cyper/.themes": "__default__profile__",
             "file:///home/cyper/.var/app/one.ablaze.floorp/cache/floorp/8cx2d3vm.default-release": "__default__profile__",
+            "file:///home/cyper/.var/app/one.ablaze.floorp/.floorp/8cx2d3vm.default-release/chrome": "__default__profile__",
             "file:///home/cyper/.config": "__default__profile__"
         },
         "emptyWindows": {}
@@ -89,6 +90,17 @@
                                     },
                                     "enabled": true,
                                     "label": "~/.config"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/cyper/.var/app/one.ablaze.floorp/.floorp/8cx2d3vm.default-release/chrome",
+                                        "path": "/home/cyper/.var/app/one.ablaze.floorp/.floorp/8cx2d3vm.default-release/chrome",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.var/app/one.ablaze.floorp/.floorp/8cx2d3vm.default-release/chrome"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -193,8 +205,7 @@
                     },
                     {
                         "id": "saveAll",
-                        "label": "Save A&&ll",
-                        "enabled": false
+                        "label": "Save A&&ll"
                     },
                     {
                         "id": "vscode.menubar.separator"
