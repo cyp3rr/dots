@@ -4,3 +4,177 @@
     at b.j (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1693:22006)
     at u.value (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1693:21027)
 2024-05-13 06:39:53.895 [info] [perf] Render performance baseline is 87ms
+2024-05-13 07:34:50.228 [info] Started local extension host with pid 113031.
+2024-05-13 07:34:54.538 [info] [perf] Render performance baseline is 56ms
+2024-05-13 08:31:15.123 [info] Started local extension host with pid 113356.
+2024-05-13 08:31:17.270 [error] Cannot read properties of undefined (reading 'accessToken'): TypeError: Cannot read properties of undefined (reading 'accessToken')
+    at b.h (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1693:21270)
+    at b.j (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1693:22006)
+    at u.value (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1693:21027)
+2024-05-13 08:31:18.902 [info] [perf] Render performance baseline is 52ms
+2024-05-15 19:12:24.326 [info] Extension host (LocalProcess pid: 113356) is unresponsive.
+2024-05-15 19:12:29.976 [info] Extension host (LocalProcess pid: 113356) is responsive.
+2024-05-15 19:12:30.214 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-05-15 19:12:30.785 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-05-15 19:17:37.352 [info] Extension host (LocalProcess pid: 113356) is unresponsive.
+2024-05-15 19:17:49.405 [info] Extension host (LocalProcess pid: 113356) is responsive.
+2024-05-15 19:17:54.661 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-05-15 19:18:55.789 [info] Extension host (LocalProcess pid: 113356) is unresponsive.
+2024-05-15 19:19:04.742 [info] Extension host (LocalProcess pid: 113356) is responsive.
+2024-05-15 19:19:09.820 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-05-15 19:21:20.984 [info] Extension host (LocalProcess pid: 113356) is unresponsive.
+2024-05-15 19:22:29.062 [info] Extension host (LocalProcess pid: 113356) is responsive.
+2024-05-15 19:22:34.039 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-05-15 19:23:35.481 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-05-15 19:24:32.428 [info] Extension host (LocalProcess pid: 113356) is unresponsive.
+2024-05-15 19:24:51.361 [info] Extension host (LocalProcess pid: 113356) is responsive.
+2024-05-15 19:24:56.047 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-05-15 19:27:20.888 [info] Extension host (LocalProcess pid: 113356) is unresponsive.
+2024-05-15 19:27:41.174 [info] Extension host (LocalProcess pid: 113356) is responsive.
+2024-05-15 19:27:48.325 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-05-15 19:30:40.918 [info] Extension host (LocalProcess pid: 113356) is unresponsive.
+2024-05-15 19:30:52.660 [info] Extension host (LocalProcess pid: 113356) is responsive.
+2024-05-15 19:30:58.530 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-05-15 19:34:17.840 [info] Extension host (LocalProcess pid: 113356) is unresponsive.
+2024-05-15 19:34:35.898 [info] Extension host (LocalProcess pid: 113356) is responsive.
+2024-05-15 19:34:43.939 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-05-15 19:36:58.400 [info] Extension host (LocalProcess pid: 113356) is unresponsive.
+2024-05-15 19:38:40.188 [info] Extension host (LocalProcess pid: 113356) is responsive.
+2024-05-15 19:38:49.273 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-05-15 19:39:00.363 [info] Extension host (LocalProcess pid: 113356) is unresponsive.
+2024-05-15 19:39:02.701 [info] Extension host (LocalProcess pid: 113356) is responsive.
+2024-05-15 19:39:10.044 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-05-15 19:39:25.049 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-05-15 19:40:04.415 [info] Extension host (LocalProcess pid: 113356) is unresponsive.
+2024-05-15 19:40:13.144 [info] Extension host (LocalProcess pid: 113356) is responsive.
+2024-05-15 19:40:17.207 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-05-15 19:41:37.718 [info] Extension host (LocalProcess pid: 113356) is unresponsive.
+2024-05-15 19:41:44.353 [info] Extension host (LocalProcess pid: 113356) is responsive.
+2024-05-15 19:41:45.569 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-05-15 19:43:13.249 [info] Extension host (LocalProcess pid: 113356) is unresponsive.
+2024-05-15 19:43:22.572 [info] Extension host (LocalProcess pid: 113356) is responsive.
+2024-05-15 19:43:24.675 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-05-15 19:44:17.982 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-05-15 19:44:56.109 [info] Extension host (LocalProcess pid: 113356) is unresponsive.
+2024-05-15 19:45:38.758 [info] Extension host (LocalProcess pid: 113356) is responsive.
+2024-05-15 19:45:42.303 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-05-15 19:46:54.193 [info] Extension host (LocalProcess pid: 113356) is unresponsive.
+2024-05-15 19:47:13.616 [info] Extension host (LocalProcess pid: 113356) is responsive.
+2024-05-15 19:47:17.625 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-05-15 19:49:23.225 [info] Extension host (LocalProcess pid: 113356) is unresponsive.
+2024-05-15 19:51:28.206 [info] Extension host (LocalProcess pid: 113356) is responsive.
+2024-05-15 19:51:31.705 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-05-15 19:52:50.781 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-05-15 19:53:13.514 [info] Extension host (LocalProcess pid: 113356) is unresponsive.
+2024-05-15 19:53:27.691 [info] Extension host (LocalProcess pid: 113356) is responsive.
+2024-05-15 19:53:32.252 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-05-15 19:55:17.567 [info] Extension host (LocalProcess pid: 113356) is unresponsive.
+2024-05-15 19:55:36.934 [info] Extension host (LocalProcess pid: 113356) is responsive.
+2024-05-15 19:57:09.859 [info] Extension host (LocalProcess pid: 113356) is unresponsive.
+2024-05-15 19:57:16.667 [info] Extension host (LocalProcess pid: 113356) is responsive.
+2024-05-15 19:57:20.909 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-05-15 19:59:58.348 [info] Extension host (LocalProcess pid: 113356) is unresponsive.
+2024-05-15 20:02:22.224 [info] Extension host (LocalProcess pid: 113356) is responsive.
+2024-05-15 20:02:27.124 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-05-15 20:04:59.216 [info] Extension host (LocalProcess pid: 113356) is unresponsive.
+2024-05-15 20:05:11.552 [info] Extension host (LocalProcess pid: 113356) is responsive.
+2024-05-15 20:05:25.680 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-05-15 20:06:41.086 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-05-15 20:09:50.073 [info] Extension host (LocalProcess pid: 113356) is unresponsive.
+2024-05-15 20:10:02.333 [info] Extension host (LocalProcess pid: 113356) is responsive.
+2024-05-15 20:10:09.776 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-05-15 20:11:58.458 [info] Extension host (LocalProcess pid: 113356) is unresponsive.
+2024-05-15 20:12:14.583 [info] Extension host (LocalProcess pid: 113356) is responsive.
+2024-05-15 20:12:18.124 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-05-15 20:14:07.106 [info] Extension host (LocalProcess pid: 113356) is unresponsive.
+2024-05-15 20:16:53.360 [info] Extension host (LocalProcess pid: 113356) is responsive.
+2024-05-15 20:16:58.755 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-05-15 20:18:32.301 [info] Extension host (LocalProcess pid: 113356) is unresponsive.
+2024-05-15 20:18:41.695 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-05-15 20:18:59.068 [info] Extension host (LocalProcess pid: 113356) is responsive.
+2024-05-15 20:19:05.072 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-05-15 20:23:35.841 [info] Extension host (LocalProcess pid: 113356) is unresponsive.
+2024-05-15 20:23:54.126 [info] Extension host (LocalProcess pid: 113356) is responsive.
+2024-05-15 20:24:01.112 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-05-15 20:29:19.598 [info] Extension host (LocalProcess pid: 113356) is unresponsive.
+2024-05-15 20:29:40.393 [info] Extension host (LocalProcess pid: 113356) is responsive.
+2024-05-15 20:29:46.735 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-05-15 20:34:23.400 [info] Extension host (LocalProcess pid: 113356) is unresponsive.
+2024-05-15 20:34:23.467 [info] Extension host (LocalProcess pid: 113356) is responsive.
+2024-05-15 20:34:23.468 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-05-15 20:34:23.504 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-05-16 02:54:15.068 [info] Extension host (LocalProcess pid: 113356) is unresponsive.
+2024-05-16 02:54:21.995 [info] Extension host (LocalProcess pid: 113356) is responsive.
+2024-05-16 02:54:26.335 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-05-16 02:55:11.421 [info] Extension host (LocalProcess pid: 113356) is unresponsive.
+2024-05-16 02:55:13.837 [info] Extension host (LocalProcess pid: 113356) is responsive.
+2024-05-16 02:55:16.507 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-05-16 02:55:22.729 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-05-16 02:55:38.740 [info] Extension host (LocalProcess pid: 113356) is unresponsive.
+2024-05-16 02:55:42.617 [info] Extension host (LocalProcess pid: 113356) is responsive.
+2024-05-16 02:55:43.838 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-05-16 02:56:26.046 [info] Extension host (LocalProcess pid: 113356) is unresponsive.
+2024-05-16 02:56:30.087 [info] Extension host (LocalProcess pid: 113356) is responsive.
+2024-05-16 02:56:31.970 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-05-16 02:57:43.093 [info] Extension host (LocalProcess pid: 113356) is unresponsive.
+2024-05-16 02:57:58.228 [info] Extension host (LocalProcess pid: 113356) is responsive.
+2024-05-16 02:58:00.570 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-05-16 02:58:11.917 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-05-16 02:58:36.634 [info] Extension host (LocalProcess pid: 113356) is unresponsive.
+2024-05-16 02:58:39.638 [info] Extension host (LocalProcess pid: 113356) is responsive.
+2024-05-16 02:58:44.523 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-05-16 02:59:53.759 [info] Extension host (LocalProcess pid: 113356) is unresponsive.
+2024-05-16 03:00:04.148 [info] Extension host (LocalProcess pid: 113356) is responsive.
+2024-05-16 03:00:06.923 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-05-16 03:02:20.523 [info] Extension host (LocalProcess pid: 113356) is unresponsive.
+2024-05-16 03:05:40.679 [info] Extension host (LocalProcess pid: 113356) is responsive.
+2024-05-16 03:05:49.707 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-05-16 03:06:32.415 [info] Extension host (LocalProcess pid: 113356) is unresponsive.
+2024-05-16 03:07:29.935 [info] Extension host (LocalProcess pid: 113356) is responsive.
+2024-05-16 03:07:38.926 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-05-16 03:09:13.718 [info] Extension host (LocalProcess pid: 113356) is unresponsive.
+2024-05-16 03:10:29.104 [info] Extension host (LocalProcess pid: 113356) is responsive.
+2024-05-16 03:10:34.049 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-05-16 03:11:24.451 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-05-16 03:14:29.130 [info] Extension host (LocalProcess pid: 113356) is unresponsive.
+2024-05-16 03:15:13.061 [info] Extension host (LocalProcess pid: 113356) is responsive.
+2024-05-16 03:15:17.420 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-05-16 03:19:42.499 [info] Extension host (LocalProcess pid: 113356) is unresponsive.
+2024-05-16 03:21:25.536 [info] Extension host (LocalProcess pid: 113356) is responsive.
+2024-05-16 03:21:33.296 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-05-16 03:23:55.123 [info] Extension host (LocalProcess pid: 113356) is unresponsive.
+2024-05-16 03:25:07.138 [info] Extension host (LocalProcess pid: 113356) is responsive.
+2024-05-16 03:25:11.295 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-05-16 03:27:10.780 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-05-16 03:28:35.792 [info] Extension host (LocalProcess pid: 113356) is unresponsive.
+2024-05-16 03:28:53.527 [info] Extension host (LocalProcess pid: 113356) is responsive.
+2024-05-16 03:28:57.909 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-05-16 03:30:39.854 [info] Extension host (LocalProcess pid: 113356) is unresponsive.
+2024-05-16 03:31:56.416 [info] Extension host (LocalProcess pid: 113356) is responsive.
+2024-05-16 03:34:31.755 [info] Extension host (LocalProcess pid: 113356) is unresponsive.
+2024-05-16 03:35:09.796 [info] Extension host (LocalProcess pid: 113356) is responsive.
+2024-05-16 03:35:16.754 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-05-16 03:38:22.799 [info] Extension host (LocalProcess pid: 113356) is unresponsive.
+2024-05-16 03:39:16.273 [info] Extension host (LocalProcess pid: 113356) is responsive.
+2024-05-16 03:39:20.322 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-05-16 03:39:54.663 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-05-16 03:42:22.827 [info] Extension host (LocalProcess pid: 113356) is unresponsive.
+2024-05-16 03:43:48.169 [info] Extension host (LocalProcess pid: 113356) is responsive.
+2024-05-16 03:43:55.456 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-05-16 03:45:30.837 [info] Extension host (LocalProcess pid: 113356) is unresponsive.
+2024-05-16 03:47:35.043 [info] Extension host (LocalProcess pid: 113356) is responsive.
+2024-05-16 03:47:40.622 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-05-16 03:51:30.333 [info] Extension host (LocalProcess pid: 113356) is unresponsive.
+2024-05-16 03:53:01.338 [info] Extension host (LocalProcess pid: 113356) is responsive.
+2024-05-16 03:53:08.723 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-05-16 03:53:32.120 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-05-16 03:59:13.379 [info] Extension host (LocalProcess pid: 113356) is unresponsive.
+2024-05-16 04:00:16.634 [info] Extension host (LocalProcess pid: 113356) is responsive.
+2024-05-16 04:00:45.998 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-05-16 04:05:06.804 [info] Extension host (LocalProcess pid: 113356) is unresponsive.
+2024-05-16 04:07:41.837 [info] Extension host (LocalProcess pid: 113356) is responsive.
+2024-05-16 04:07:49.420 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-05-16 04:12:07.524 [info] Extension host (LocalProcess pid: 113356) is unresponsive.
+2024-05-16 04:18:52.798 [info] Extension host (LocalProcess pid: 113356) is responsive.
+2024-05-16 04:18:57.345 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-05-16 04:19:05.023 [info] UNRESPONSIVE extension host: starting to profile NOW

@@ -1,0 +1,185 @@
+* {
+    /* background: rgba(13, 13, 13, 0.1); */
+    backdrop-filter: blur(16px);
+}
+
+GtkMenuBar.menubar {
+    display: none !important;
+}
+
+/* remove window title from Client-Side Decorations */
+.solid-csd headerbar .title {
+    font-size: 0;
+}
+
+/* hide extra window decorations/double border */
+window decoration {
+    margin: 0;
+    border: none;
+    padding: 0;
+}
+
+
+/* Theme Colors
+Background rgba(128,128,128,0.2)
+Text rgba(255,255,255,0.96)
+Header Background rgba(0,0,0,0.08)
+Header Text rgba(255,255,255,0.98)
+Selected Background rgba(255,255,255,1)
+Selected Text rgba(0,0,0,1)
+Accent Color (Checkboxes, Radios) rgba(255,255,255,0.9)
+Textbox Background rgba(208,208,208,0.8)
+Textbox Text rgba(255,255,255,0.96)
+Button Background rgba(255,255,255,0.06)
+Button Text rgba(255,255,255,0.96)
+Header Button Background rgba(255,255,255,0.1)
+Header Button Text rgba(255,255,255,0.98)
+Focused Window Border rgba(0,0,0,1)
+Unfocused Window Border rgba(1,1,1,0)
+Textbox Caret rgba(255,255,255,0.96)
+BiDi Textbox Caret rgba(255,255,255,0.98) */
+
+/*$dark_shadow: #000;*/
+/*$light_shadow: #fff;*/
+/*$dark_shadow: #000;*/
+/*$light_shadow: #fff;*/
+/* dark color scheme */
+@define-color dark_bg_color rgba(0,0,0,0.08);
+@define-color dark_fg_color rgba(255,255,255,0.98);
+/* colormap actually used by the theme, to be overridden in other css files */
+@define-color theme_bg_color rgba(128,128,128,0.2);
+@define-color theme_fg_color rgba(255,255,255,0.98);
+@define-color theme_base_color rgba(208,208,208,0.8);
+@define-color theme_text_color rgba(255,255,255,0.98);
+@define-color theme_selected_bg_color rgba(255,255,255,1);
+@define-color theme_selected_fg_color rgba(0,0,0,1);
+@define-color theme_tooltip_bg_color rgba(128,128,128,0.2);
+@define-color theme_tooltip_fg_color rgba(255,255,255,0.98);
+/* shadow effects */
+@define-color light_shadow rgba(0,0,0,0.12);
+@define-color dark_shadow rgba(0,0,0,0.123);
+/* misc colors used by gtk+ */
+@define-color info_fg_color rgba(208,208,208,0.81);
+@define-color info_bg_color rgba(0,0,0,0.08);
+@define-color warning_fg_color rgba(208,208,208,0.81);
+@define-color warning_bg_color rgba(208,208,208,0.82);
+@define-color question_fg_color rgba(208,208,208,0.81);
+@define-color question_bg_color rgba(0,0,0,0.08);
+@define-color error_fg_color rgba(208,208,208,0.81);
+@define-color error_bg_color #FF453A;
+@define-color link_color #0A84FF;
+@define-color success_color #32D74B;
+@define-color warning_color rgba(208,208,208,0.82);
+@define-color error_color #FF453A;
+/* widget colors */
+@define-color titlebar_bg_focused @dark_bg_color;
+@define-color titlebar_bg_unfocused @theme_bg_color;
+@define-color titlebar_fg_focused @dark_fg_color;
+@define-color titlebar_fg_unfocused mix(rgba(255,255,255,0.98),rgba(128,128,128,0.2),0.4);
+@define-color menubar_bg_color @dark_bg_color;
+@define-color menubar_fg_color @dark_fg_color;
+@define-color toolbar_bg_color @theme_bg_color;
+@define-color toolbar_fg_color @theme_fg_color;
+@define-color menu_bg_color @dark_bg_color;
+@define-color menu_fg_color @dark_fg_color;
+@define-color panel_bg_color @dark_bg_color;
+@define-color panel_fg_color @dark_fg_color;
+/* osd */
+@define-color osd_base rgba(0,0,0,0.08);
+@define-color osd_bg rgba(128,128,128,0.2);
+@define-color osd_fg rgba(255,255,255,0.98);
+/* lightdm greeter colors */
+@define-color lightdm_bg_color rgba(0,0,0,0.08);
+@define-color lightdm_fg_color rgba(255,255,255,0.98);
+/* window manager colors */
+@define-color wm_bg_focused rgba(0,0,0,0.08);
+@define-color wm_bg_unfocused rgba(128,128,128,0.2);
+@define-color wm_border_focused rgba(0,0,0,1);
+@define-color wm_border_unfocused rgba(1,1,1,0);
+@define-color wm_title_focused rgba(255,255,255,0.98);
+@define-color wm_title_unfocused mix(rgba(255,255,255,0.98),rgba(128,128,128,0.2),0.4);
+@define-color wm_icons_focused rgba(255,255,255,0.98);
+@define-color wm_icons_focused_prelight rgba(255,255,255,1);
+@define-color wm_icons_focused_pressed rgba(10, 132, 255,0.5);
+@define-color wm_icons_unfocused mix(rgba(255,255,255,0.98),rgba(128,128,128,0.2),0.4);
+@define-color wm_icons_unfocused_prelight rgba(255,255,255,1);
+@define-color wm_icons_unfocused_pressed rgba(10, 132, 255,0.5);
+
+/* @define-color accent_color #83a598;
+@define-color accent_bg_color mix(#83a598, #282828,0.3);
+@define-color accent_fg_color #d5c4a1;
+@define-color destructive_color #83a598;
+@define-color destructive_bg_color mix(#83a598, #282828,0.3);
+@define-color destructive_fg_color #d5c4a1;
+@define-color success_color #8ff0a4;
+@define-color success_bg_color #26a269;
+@define-color success_fg_color #d5c4a1;
+@define-color warning_color #f8e45c;
+@define-color warning_bg_color #cd9309;
+@define-color warning_fg_color rgba(0, 0, 0, 0.8);
+@define-color error_color #ff7b63;
+@define-color error_bg_color mix(#83a598, #282828,0.3);
+@define-color error_fg_color #d5c4a1;
+@define-color window_bg_color #282828;
+@define-color window_fg_color #d5c4a1;
+@define-color view_bg_color #3c3836;
+@define-color view_fg_color #d5c4a1;
+@define-color headerbar_bg_color mix(#282828,black,0.2);
+@define-color headerbar_fg_color #d5c4a1;
+@define-color headerbar_border_color #d5c4a1;
+@define-color headerbar_backdrop_color @window_bg_color;
+@define-color headerbar_shade_color rgba(0, 0, 0, 0.36);
+@define-color card_bg_color rgba(255, 255, 255, 0.08);
+@define-color card_fg_color #d5c4a1;
+@define-color card_shade_color rgba(0, 0, 0, 0.36);
+@define-color dialog_bg_color #665c54;
+@define-color dialog_fg_color #d5c4a1;
+@define-color popover_bg_color #665c54;
+@define-color popover_fg_color #d5c4a1;
+@define-color shade_color rgba(0,0,0,0.36);
+@define-color scrollbar_outline_color rgba(0,0,0,0.5);
+@define-color blue_1 #83a598;
+@define-color blue_2 #83a598;
+@define-color blue_3 #83a598;
+@define-color blue_4 #83a598;
+@define-color blue_5 #83a598;
+@define-color green_1 #b8bb26;
+@define-color green_2 #b8bb26;
+@define-color green_3 #b8bb26;
+@define-color green_4 #b8bb26;
+@define-color green_5 #b8bb26;
+@define-color yellow_1 #fabd2f;
+@define-color yellow_2 #fabd2f;
+@define-color yellow_3 #fabd2f;
+@define-color yellow_4 #fabd2f;
+@define-color yellow_5 #fabd2f;
+@define-color orange_1 #fe8019;
+@define-color orange_2 #fe8019;
+@define-color orange_3 #fe8019;
+@define-color orange_4 #fe8019;
+@define-color orange_5 #fe8019;
+@define-color red_1 #fb4934;
+@define-color red_2 #fb4934;
+@define-color red_3 #fb4934;
+@define-color red_4 #fb4934;
+@define-color red_5 #fb4934;
+@define-color purple_1 #d3869b;
+@define-color purple_2 #d3869b;
+@define-color purple_3 #d3869b;
+@define-color purple_4 #d3869b;
+@define-color purple_5 #d3869b;
+@define-color brown_1 #d65d0e;
+@define-color brown_2 #d65d0e;
+@define-color brown_3 #d65d0e;
+@define-color brown_4 #d65d0e;
+@define-color brown_5 #d65d0e;
+@define-color light_1 #d5c4a1;
+@define-color light_2 #f6f5f4;
+@define-color light_3 #deddda;
+@define-color light_4 #c0bfbc;
+@define-color light_5 #9a9996;
+@define-color dark_1 mix(#282828,white,0.5);
+@define-color dark_2 mix(#282828,white,0.2);
+@define-color dark_3 #282828;
+@define-color dark_4 mix(#282828,black,0.2);
+@define-color dark_5 mix(#282828,black,0.4); */

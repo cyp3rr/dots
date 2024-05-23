@@ -1,0 +1,16 @@
+2024-05-23 08:49:12.166 [info] Started local extension host with pid 19046.
+2024-05-23 08:49:17.215 [error] Cannot read properties of undefined (reading 'accessToken'): TypeError: Cannot read properties of undefined (reading 'accessToken')
+    at b.h (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1693:21270)
+    at b.j (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1693:22006)
+    at u.value (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1693:21027)
+2024-05-23 08:49:18.185 [info] [perf] Render performance baseline is 102ms
+2024-05-23 08:53:07.278 [info] Extension host (LocalProcess pid: 19046) is unresponsive.
+2024-05-23 08:53:08.420 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-05-23 08:53:08.871 [info] Extension host (LocalProcess pid: 19046) is responsive.
+2024-05-23 08:53:08.872 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-05-23 08:53:09.186 [warning] UNRESPONSIVE extension host: 'glenn2223.live-sass' took 83.99223770495394% of 383.48ms, saved PROFILE here: 'file:///tmp/exthost-509d8e.cpuprofile'
+2024-05-23 09:19:12.208 [info] Extension host (LocalProcess pid: 19046) is unresponsive.
+2024-05-23 09:19:13.048 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-05-23 09:19:13.419 [info] Extension host (LocalProcess pid: 19046) is responsive.
+2024-05-23 09:19:13.420 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-05-23 09:19:13.804 [warning] UNRESPONSIVE extension host: 'glenn2223.live-sass' took 82.36089167407958% of 310.167ms, saved PROFILE here: 'file:///tmp/exthost-2ed0d3.cpuprofile'

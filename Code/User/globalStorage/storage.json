@@ -3,9 +3,9 @@
     "profileAssociations": {
         "workspaces": {
             "file:///home/cyper/.config/hypr": "__default__profile__",
-            "file:///home/cyper/.themes": "__default__profile__",
             "file:///home/cyper/.var/app/one.ablaze.floorp/cache/floorp/8cx2d3vm.default-release": "__default__profile__",
             "file:///home/cyper/.var/app/one.ablaze.floorp/.floorp/8cx2d3vm.default-release/chrome": "__default__profile__",
+            "file:///home/cyper/.themes": "__default__profile__",
             "file:///home/cyper/.config": "__default__profile__"
         },
         "emptyWindows": {}
@@ -95,6 +95,17 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
+                                        "external": "file:///home/cyper/.themes",
+                                        "path": "/home/cyper/.themes",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.themes"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
                                         "external": "file:///home/cyper/.var/app/one.ablaze.floorp/.floorp/8cx2d3vm.default-release/chrome",
                                         "path": "/home/cyper/.var/app/one.ablaze.floorp/.floorp/8cx2d3vm.default-release/chrome",
                                         "scheme": "file"
@@ -117,17 +128,6 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/cyper/.themes",
-                                        "path": "/home/cyper/.themes",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "~/.themes"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
                                         "external": "file:///home/cyper/.config/hypr",
                                         "path": "/home/cyper/.config/hypr",
                                         "scheme": "file"
@@ -137,6 +137,17 @@
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/cyper/.config/kitty/kitty.conf",
+                                        "path": "/home/cyper/.config/kitty/kitty.conf",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.config/kitty/kitty.conf"
                                 },
                                 {
                                     "id": "openRecentFile",
@@ -205,7 +216,8 @@
                     },
                     {
                         "id": "saveAll",
-                        "label": "Save A&&ll"
+                        "label": "Save A&&ll",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -568,7 +580,8 @@
                                 },
                                 {
                                     "id": "workbench.action.togglePanel",
-                                    "label": "&&Panel"
+                                    "label": "&&Panel",
+                                    "checked": true
                                 },
                                 {
                                     "id": "toggle.toggleCustomTitleBar",
